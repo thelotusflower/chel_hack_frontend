@@ -1,0 +1,22 @@
+<div class="slider slider-tovar">
+          <div class="wrapper">
+            <div class="slider-cont">
+              <div class="title"> <span>Наши товары</span></div>
+              {% for data in datas %}
+              <div class="slider__block">
+                <div class="slider__block-list"><a class="slider-block__item" href="#">
+                    <figure class="slider-block__item-img"><img src="img/photos/1.jpg"/></figure>
+                    <div class="slider-block__item-info"> 
+                      <div class="slider-block__info-title">{{data.title}}</div>
+                      <div class="slider-block__info-dop">{{data.brand}}</div>
+                      <div class="slider-block__info-price">{{data.finalPrice}} Р</div>
+                      <div class="slider-block__info-price--sale">{{data.price}} Р</div>
+                      <div class="slider-block__info-btn ico-cart"></div>
+                    </div></a><a class="slider-block__item" href="#">
+                    <figure class="slider-block__item-img"><img src={{data.imageUrl}}/></figure>
+                {% endfor %}
+                </div></a>
+            </div>
+        </div>
+    </div>
+</div>
