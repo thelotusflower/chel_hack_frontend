@@ -2783,6 +2783,8 @@ li{
 .product__price, .product__price-final {
 	text-align: center;
 	width: 100%;
+	font-size: 24pt;
+	font-weight: 900;
 }
 
 .product__price {
@@ -2794,11 +2796,19 @@ li{
 	background-color: lightgreen;
 	text-align: center;
 	padding: 12px;
-	width: 200px;
+	width: 250px;
 	border-radius: 5px;
-	font-size: 16pt;
+	font-size: 12pt;
 	text-transform: uppercase;
 	font-weight: 600;
+}
+
+.product__info_button:hover {
+	color: white;
+}
+
+.product__top_button:hover {
+	color: white;
 }
 
 
