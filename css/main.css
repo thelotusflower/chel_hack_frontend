@@ -2735,5 +2735,73 @@ li{
 	}
 }
 
+.product {
+	padding: 24px;
+}
+
+.product__top {
+	display: flex;
+	justify-content: space-between;
+	padding: 24px;
+	background-color: #bbb;
+}
+
+.product__content {
+	display: flex;
+}
+
+.product__info {
+	padding: 12px;
+	/*border: 1px solid #000;*/
+	display: flex;
+    flex-direction: column
+}
+
+.product__name {
+	width: 100%;
+	text-align: center;
+}
+
+.product__top_name, .product__name {
+	font-size: 14pt;
+	font-weight: 600;
+}
+
+.product__description {
+	margin-bottom: 24px;
+}
+
+.param_title, .param_val {
+	font-size: 12pt;
+	padding: 5px 0;
+}
+
+.param_val {
+	font-weight: 600;
+}
+
+.product__price, .product__price-final {
+	text-align: center;
+	width: 100%;
+}
+
+.product__price {
+	text-decoration: line-through;
+}
+
+.product__info_button, .product__top_button {
+	/*border: 1px solid #000;*/
+	background-color: lightgreen;
+	text-align: center;
+	padding: 12px;
+	width: 200px;
+	border-radius: 5px;
+	font-size: 16pt;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+
+
 
 /*# sourceMappingURL=main.css.map */
